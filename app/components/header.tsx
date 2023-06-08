@@ -2,13 +2,13 @@ import Link from "next/link"
 
 const Header = () => {
   return (
-    <header className="flex">
+    <header className="flex justify-between">
         <div>
             <Link href="/">Wuletaw Wonte</Link>
         </div>
 
         <nav>
-            <ul>
+            <ul className="flex gap-2">
                 <li>
                     <Link href="/">Home</Link>
                 </li>
