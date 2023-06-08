@@ -1,7 +1,16 @@
-export default function Home() {
+import Link from 'next/link'
+import React from 'react'
+
+function HomePage() {
   return (
     <main>
-      <h2>Hello</h2>
+      <div>HomePage</div>
+      <ul>
+        <li><Link href="/">Home</Link></li>
+        <li><Link href="/about">About</Link></li>
+      </ul>
     </main>
   )
 }
+
+export default HomePage
