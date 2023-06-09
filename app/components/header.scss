@@ -1,0 +1,29 @@
+header {
+    display: flex; 
+    padding-top: 1rem; 
+    padding-bottom: 2.5rem; 
+    font-size: 1.25rem;
+    line-height: 1.75rem; 
+    line-height: 2.25rem; 
+    justify-content: space-between; 
+
+    .logo {
+
+        a {
+            font-weight: 700; 
+            letter-spacing: 0.1em; 
+            text-align: center; 
+            text-decoration: none; 
+            box-shadow: none; 
+        }
+    }
+
+
+    ul {
+        display: flex; 
+        align-items: center; 
+        gap: 1rem;         
+    }
+
+
+}

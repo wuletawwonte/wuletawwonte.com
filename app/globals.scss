@@ -11,9 +11,17 @@ $container-width: 768px;
 body {
     background-color: $bg-color;
     color: $txt-color;
+}
+
+.container {
     margin: auto;
     max-width: $container-width;
     padding: 1.5rem;
+}
+
+.top {
+    height: 5px;
+    background-image: linear-gradient(139deg, rgb(251, 136, 23), rgb(255, 75, 1), rgb(193, 33, 39), rgb(224, 42, 255));
 }
 
 a {
@@ -24,3 +32,4 @@ a {
 ul {
     list-style: none;
 }
+
