@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="hero__avatar">
             <Image src={avatar} alt="Picture of Wuletaw Wonte"></Image>
         </div>
-        <div className="grow border border-red">
+        <div className="hero__body">
             <h1 className="font-bold">Hello, I'm Wuletaw, a full stack web developer based in Arba Minch. </h1>            
         </div>
     </div>
