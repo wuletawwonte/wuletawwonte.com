@@ -6,7 +6,7 @@
 $bg-color: #0c0f11;
 $txt-color: #a8adb2;
 $container-width: 768px;
-
+$bg-gradient: linear-gradient(139deg, rgb(251, 136, 23), rgb(255, 75, 1), rgb(193, 33, 39), rgb(224, 42, 255));
 
 body {
     background-color: $bg-color;
@@ -21,7 +21,7 @@ body {
 
 .top {
     height: 5px;
-    background-image: linear-gradient(139deg, rgb(251, 136, 23), rgb(255, 75, 1), rgb(193, 33, 39), rgb(224, 42, 255));
+    background-image: $bg-gradient;
 }
 
 a {

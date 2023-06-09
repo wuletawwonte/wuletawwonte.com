@@ -1,0 +1,26 @@
+@import '../globals.scss';
+
+.hero {
+    display: flex; 
+    margin-top: 4rem; 
+    margin-bottom: 5rem; 
+    font-size: 1rem;
+    line-height: 1.75rem; 
+    gap: 0.75rem; 
+
+    &__avatar {
+        padding: 0.25rem; 
+        width: 11rem; 
+        border-radius: 100%; 
+        border-width: 2px; 
+        border-color: white;
+        background: $bg-gradient;
+        min-width: 9rem; 
+        height: 9rem; 
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
