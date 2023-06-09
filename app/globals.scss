@@ -2,3 +2,25 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+$bg-color: #0c0f11;
+$txt-color: #a8adb2;
+$container-width: 768px;
+
+
+body {
+    background-color: $bg-color;
+    color: $txt-color;
+    margin: auto;
+    max-width: $container-width;
+    padding: 1.5rem;
+}
+
+a {
+    color: $txt-color;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
