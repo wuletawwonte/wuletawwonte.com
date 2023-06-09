@@ -1,8 +1,11 @@
 import './globals.scss'
-import { Inter } from 'next/font/google'
 import Header from './components/header'
+import { Roboto } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: 'Wuletaw Wonte',
@@ -17,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={roboto.className}>
         <div className="top"></div>        
         <div className="container">
           <Header />
