@@ -1,8 +1,11 @@
 import './globals.scss'
-import { Inter } from 'next/font/google'
 import Header from './components/header'
+import { Roboto } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: 'Wuletaw Wonte',
@@ -17,11 +20,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-custom-black text-custom-white m-auto max-w-3xl p-6`}>
-        <Header />
-        <main>
-          {children}
-        </main>
+      <body className={roboto.className}>
+        <div className="top"></div>        
+        <div className="container">
+          <Header />
+          <main>
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   )
