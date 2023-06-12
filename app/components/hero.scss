@@ -35,5 +35,11 @@
         a:hover {
             color: rgb(251, 136, 23);
         }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 0.5rem;            
+        }
     }
 }
