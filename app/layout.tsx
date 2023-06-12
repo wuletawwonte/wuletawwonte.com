@@ -1,6 +1,9 @@
 import './globals.scss'
 import Header from './components/header'
 import { Montserrat } from 'next/font/google'
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 const roboto = Montserrat({
   subsets: ['latin'],

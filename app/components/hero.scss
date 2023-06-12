@@ -28,24 +28,35 @@
     &__body {
         padding: 1rem;
 
-        p {
+        &__text {
             margin-bottom: 1rem;
             font-size: 2rem;
             letter-spacing: 0.03em;
+
+            a {
+                color: white;
+            }
+    
+            a:hover {
+                color: rgb(251, 136, 23);
+            }    
         }
 
-        a {
-            color: white;
-        }
 
-        a:hover {
-            color: rgb(251, 136, 23);
-        }
-
-        ul {
+        &__social {            
             display: flex;
             justify-content: space-between;
-            gap: 0.5rem;            
+            gap: 0.5rem;
+            
+            a {
+                display: flex;
+                gap: 0.4rem;
+                align-items: center;
+            }
+
+            a:hover {
+                color: white;
+            }
         }
     }
 }
