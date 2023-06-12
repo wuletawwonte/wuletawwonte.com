@@ -1,10 +1,10 @@
 import './globals.scss'
 import Header from './components/header'
-import { Roboto } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 
-const roboto = Roboto({
-  weight: '400',
+const roboto = Montserrat({
   subsets: ['latin'],
+  weight: '400',
 })
 
 export const metadata = {

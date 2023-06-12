@@ -10,7 +10,7 @@ const Hero = () => {
             <Image src={avatar} alt="Picture of Wuletaw Wonte"></Image>
         </div>
         <div className="hero__body">
-            <h1><a href="/">Hello, I'm Wuletaw</a>, a full stack web developer based in Arba Minch. </h1>            
+            <p><a href="/">Hello, I'm Wuletaw</a>. I'm a full stack web developer. </p>            
             <ul>
               <li>
                 <Link href="/">
