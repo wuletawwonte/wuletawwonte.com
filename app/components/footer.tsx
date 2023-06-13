@@ -9,16 +9,16 @@ export const Footer = () => {
     <footer>
         <Link href="/">&copy; Wuletaw Wonte</Link>
         <div className="social">
-            <Link href="/">
+            <Link href="https://twitter.com/wuletaww" target='_blank'>
                 <FontAwesomeIcon icon={faTwitter} size='xl' style={{ color: "rgb(133, 191, 247)" }} />
             </Link>
-            <Link href="/">
+            <Link href="https://www.linkedin.com/in/wuletaw-wonte" target='_blank'>
                 <FontAwesomeIcon icon={faLinkedin} size='xl' style={{ color: "rgb(41, 102, 188)" }} />
             </Link>
-            <Link href="/">
+            <Link href="https://github.com/wuletawwonte/" target='_blank'>
                 <FontAwesomeIcon icon={faGithub} size='xl' style={{ color: "white" }} />
             </Link>
-            <Link href="/">
+            <Link href="https://www.facebook.com/wuletawbeza" target='_blank'>
                 <FontAwesomeIcon icon={faFacebook} size='xl' style={{ color: "#1877F2" }} />
             </Link>
         </div>

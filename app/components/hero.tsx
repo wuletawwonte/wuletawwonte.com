@@ -15,25 +15,25 @@ const Hero = () => {
             <p className="hero__body__text"><a href="/">Hello, I'm Wuletaw</a>. I'm a full stack web developer. </p>            
             <ul className="hero__body__social">
               <li>
-                <Link href="/">
+                <Link href="https://twitter.com/wuletaww" target='_blank'>
                   <FontAwesomeIcon icon={faTwitter} style={{ color: "rgb(133, 191, 247)" }} />
                   <span>Twitter</span>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="https://www.linkedin.com/in/wuletaw-wonte" target='_blank'>
                   <FontAwesomeIcon icon={faLinkedin} style={{ color: "rgb(41, 102, 188)" }} />
                   <span>LinkedIn</span>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="https://github.com/wuletawwonte/" target='_blank'>
                   <FontAwesomeIcon icon={faGithub} style={{ color: "white" }} />
                   <span>Github</span>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="https://www.facebook.com/wuletawbeza" target='_blank'>
                   <FontAwesomeIcon icon={faFacebook} style={{ color: "#1877F2" }} />
                   <span>Facebook</span>
                 </Link>
