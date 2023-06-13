@@ -10,13 +10,14 @@
 
     &__avatar {
         padding: 0.25rem; 
-        width: 11rem; 
         border-radius: 100%; 
         border-width: 2px; 
         border-color: white;
         background: $bg-gradient;
-        min-width: 9rem; 
-        height: 9rem; 
+        min-width: 8rem; 
+        min-height: 8rem;
+        width: 8rem;
+        height: 8rem; 
 
         img {
             width: 100%;
@@ -25,15 +26,37 @@
     }
 
     &__body {
-        border: 1px solid red;
         padding: 1rem;
 
-        a {
-            color: white;
+        &__text {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            letter-spacing: 0.03em;
+
+            a {
+                color: white;
+            }
+    
+            a:hover {
+                color: rgb(251, 136, 23);
+            }    
         }
 
-        a:hover {
-            color: rgb(251, 136, 23);
+
+        &__social {            
+            display: flex;
+            justify-content: space-between;
+            gap: 0.5rem;
+            
+            a {
+                display: flex;
+                gap: 0.4rem;
+                align-items: center;
+            }
+
+            a:hover {
+                color: white;
+            }
         }
     }
 }

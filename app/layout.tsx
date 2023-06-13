@@ -1,10 +1,14 @@
 import './globals.scss'
 import Header from './components/header'
-import { Roboto } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import { Footer } from './components/footer';
+config.autoAddCss = false;
 
-const roboto = Roboto({
-  weight: '400',
+const roboto = Montserrat({
   subsets: ['latin'],
+  weight: '400',
 })
 
 export const metadata = {
@@ -27,6 +31,7 @@ export default function RootLayout({
           <main>
             {children}
           </main>
+          <Footer />
         </div>
       </body>
     </html>
