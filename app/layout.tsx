@@ -3,6 +3,7 @@ import Header from './components/header'
 import { Montserrat } from 'next/font/google'
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
+import { Footer } from './components/footer';
 config.autoAddCss = false;
 
 const roboto = Montserrat({
@@ -30,6 +31,7 @@ export default function RootLayout({
           <main>
             {children}
           </main>
+          <Footer />
         </div>
       </body>
     </html>

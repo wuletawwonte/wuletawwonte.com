@@ -1,0 +1,11 @@
+footer {
+    padding-top: 5.2rem;
+    padding-bottom: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+
+    .social {
+        display: flex;
+        gap: 0.5rem;
+    } 
+}
