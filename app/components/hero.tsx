@@ -12,7 +12,7 @@ const Hero = () => {
             <Image src={avatar} alt="Picture of Wuletaw Wonte"></Image>
         </div>
         <div className="hero__body">
-            <p className="hero__body__text"><a href="/">Hello, I'm Wuletaw</a>. I'm a full stack web developer. </p>            
+            <p className="hero__body__text"><a href="/">Hello, I&apos;m Wuletaw</a>. I&apos;m a full stack web developer. </p>            
             <ul className="hero__body__social">
               <li>
                 <Link href="https://twitter.com/wuletaww" target='_blank'>
