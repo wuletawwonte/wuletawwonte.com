@@ -1,4 +1,11 @@
-# Reactjs Concepts
+---
+title: 'Reactjs Concepts'
+excerpt: 'The performance gain of React is mainly because of the virtual DOM. Before updating the real DOM and repainting what’s on the screen'
+date: '2020-03-16T05:35:07.322Z'
+author:
+  name: Wuletaw Wonte
+  picture: '/me.png'
+---
 
 ## Diffing
 

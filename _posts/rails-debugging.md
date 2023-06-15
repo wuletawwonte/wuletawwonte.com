@@ -1,4 +1,11 @@
-# Rails debugging
+---
+title: 'Rails debugging'
+excerpt: 'When working on a rails project you may need the values of variables for debugging purposes.'
+date: '2020-03-16T05:35:07.322Z'
+author:
+  name: Wuletaw Wonte
+  picture: '/me.png'
+---
 
 ## debug method
 

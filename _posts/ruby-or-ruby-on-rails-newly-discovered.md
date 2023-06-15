@@ -1,4 +1,11 @@
-# ruby OR ruby on rails newly discovered
+---
+title: 'ruby OR ruby on rails newly discovered'
+excerpt: 'These are the things I discover while working at Simplero. Most of the things I put here are just a code pattern or maybe some new syntax on the'
+date: '2020-03-16T05:35:07.322Z'
+author:
+  name: Wuletaw Wonte
+  picture: '/me.png'
+---
 
 These are the things I discover while working at Simplero. Most of the things I put here are just a code pattern or maybe some new syntax on the language it is grouped under. 
 

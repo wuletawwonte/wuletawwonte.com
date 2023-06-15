@@ -1,6 +1,10 @@
-const PostPage = () => {
+const PostPage = (props: any) => {
+    const slug = props.params.slug
   return (
-    <div>PostPage</div>
+    <>
+    <h2>PostPage</h2>
+    <p>{slug}</p> 
+    </>   
   )
 }
 

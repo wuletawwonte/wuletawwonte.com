@@ -1,4 +1,12 @@
-# My VS Code Setup
+---
+title: 'My VS Code Setup'
+excerpt: 'As a developer, the main software I install on my PC is my code editor. As if it is the only code editor available'
+date: '2020-03-16T05:35:07.322Z'
+author:
+  name: Wuletaw Wonte
+  picture: '/me.png'
+---
+
 
 As a developer, the main software I install on my PC is my code editor. As if it is the only code editor available, the number one choice for almost all developers is vs code. It is a really good code editor which contains all features a developer needs.  
 

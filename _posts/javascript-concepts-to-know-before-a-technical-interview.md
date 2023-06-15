@@ -1,4 +1,11 @@
-# JavaScript concepts to know before a technical interview
+---
+title: 'JavaScript concepts to know before a technical interview'
+excerpt: 'In a Javascript interview the questions any interviewer asks are probably the same. Some concepts to know before a technical interview include'
+date: '2020-03-16T05:35:07.322Z'
+author:
+  name: Joe Haddad
+  picture: '/assets/blog/authors/joe.jpeg'
+---
 
 ## Closure
 
