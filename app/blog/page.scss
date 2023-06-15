@@ -1,0 +1,11 @@
+@import '../globals.scss';
+
+.topsection {
+    margin-bottom: 2rem;
+
+    p {
+        color: $txt-color-dim;
+        margin-top: 2px;
+        font-weight: 500;
+    } 
+}

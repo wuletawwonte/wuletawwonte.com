@@ -5,7 +5,10 @@ import matter from 'gray-matter'
 const postsDirectory = join(process.cwd(), 'posts')
 
 export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory)
+  const files = fs.readdirSync(postsDirectory)
+  const mdposts = files.filter(file => file.endsWith('.md'))
+  const slugs = mdposts.map(mdpost => mdpost.replace(/\.md$/, ''))
+  return slugs 
 }
 
 export function getPostBySlug(slug: string, fields: string[] = []) {
