@@ -1,8 +1,10 @@
-import React from 'react'
+import { getPostSlugs } from "../lib/api"
 
 const BlogPage = () => {
-  return (
-    <div>Blog page</div>
+  const cwd = getPostSlugs()
+
+  return (    
+    <div>Blog page {cwd}</div>
   )
 }
 
