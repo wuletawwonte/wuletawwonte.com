@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { getPostSlugs } from "../lib/api"
 import './page.scss'
 
@@ -13,7 +14,9 @@ const BlogPage = () => {
       <ul>
         {cwd.map((slug) => (
           <li key={slug}>
-            {slug}
+            <Link href={`/posts/${slug}`}>
+              {slug}
+            </Link>          
           </li>
         ))}
       </ul>
