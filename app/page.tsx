@@ -1,6 +1,7 @@
 import React from 'react'
-import Hero from './components/hero'
+import Hero from './components/Hero'
 import { getAllPosts } from './lib/api'
+import { PostPreview } from './components/PostPreview';
 
 function HomePage() {
   const posts = getAllPosts();
@@ -10,9 +11,7 @@ function HomePage() {
       <h2>Recent Posts</h2>
       <ul>
         {posts.map((post) => {
-          return <li>
-            {post.title}
-            </li>
+          return <PostPreview post={post} />
         })}
       </ul>      
     </div>

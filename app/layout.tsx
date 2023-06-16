@@ -1,9 +1,9 @@
 import './globals.scss'
-import Header from './components/header'
+import Header from './components/Header'
 import { Montserrat } from 'next/font/google'
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
-import { Footer } from './components/footer';
+import { Footer } from './components/Footer';
 config.autoAddCss = false;
 
 const roboto = Montserrat({
