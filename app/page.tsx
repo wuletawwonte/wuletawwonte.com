@@ -11,7 +11,7 @@ function HomePage() {
       <Hero />
       <h2 className='homepage__posts'>RECENT POSTS</h2>
       <ul>
-        {posts.map((post) => {
+        {posts.slice(0,3).map((post) => {
           return <PostPreview post={post} />
         })}
       </ul>      
