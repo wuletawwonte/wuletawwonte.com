@@ -60,3 +60,11 @@
         }
     }
 }
+
+@media (max-width: $breakpoint-tablet) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
