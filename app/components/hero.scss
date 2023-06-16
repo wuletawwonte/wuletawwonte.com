@@ -38,7 +38,7 @@
             }
     
             a:hover {
-                color: rgb(251, 136, 23);
+                color: $primary-color;
             }    
         }
 
@@ -59,4 +59,12 @@
             }
         }
     }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }

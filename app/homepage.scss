@@ -1,0 +1,14 @@
+@import './globals.scss';
+
+.homepage {
+    &__posts {
+        margin-bottom: 1rem;
+    }
+
+    &__more {
+        color: $primary-color;
+        display: flex;
+        align-items: center;
+        gap: 1ch;
+    }
+}

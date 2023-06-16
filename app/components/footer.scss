@@ -6,6 +6,21 @@ footer {
 
     .social {
         display: flex;
+        justify-content: center;
         gap: 0.5rem;
     } 
+
+    .source {
+        display: flex;
+        justify-content: flex-end;
+
+        &__link:hover {
+            color: white;
+        }
+    }
+
+    .source, .social, .copyright {
+        flex-grow: 1;
+        flex-basis: 0;
+    }
 }
