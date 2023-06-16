@@ -3,6 +3,9 @@ import Hero from './components/Hero'
 import { getAllPosts } from './lib/api'
 import { PostPreview } from './components/PostPreview'
 import './homepage.scss'
+import Link from 'next/link'
+import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function HomePage() {
   const posts = getAllPosts();
@@ -14,7 +17,8 @@ function HomePage() {
         {posts.slice(0,3).map((post) => {
           return <PostPreview post={post} />
         })}
-      </ul>      
+      </ul>   
+      <Link href='/posts' className="homepage__more">Read More Posts <FontAwesomeIcon icon={faArrowRightLong} size='xs'></FontAwesomeIcon></Link>   
     </div>
   )
 }
