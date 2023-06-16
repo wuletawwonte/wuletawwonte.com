@@ -1,0 +1,18 @@
+@import '../globals.scss';
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+    &__title {        
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+        color: $txt-color-bright;
+    }
+
+    &__title:hover {
+        color: $primary-color;
+    } 
+}
