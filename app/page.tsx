@@ -15,7 +15,7 @@ function HomePage() {
       <h2 className='homepage__posts'>RECENT POSTS</h2>
       <ul>
         {posts.slice(0,3).map((post) => {
-          return <PostPreview post={post} />
+          return <PostPreview post={post} key={post.slug} />
         })}
       </ul>   
       <Link href='/posts' className="homepage__more">Read More Posts <FontAwesomeIcon icon={faArrowRightLong} size='xs'></FontAwesomeIcon></Link>   
