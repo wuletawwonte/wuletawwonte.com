@@ -1,1 +1,12 @@
 name: 🚀 Build and Deploy to CPanel
+on:
+  push:
+    branches:
+      - 'main'
+      - '10-setup-continuous-deployment-to-cpanel-using-github-actions'
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
