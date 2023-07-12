@@ -10,3 +10,19 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+
+      - name: Set Nodejs version
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+      
+      - name: Install yarn dependencies
+        run: yarn
+
+      - name: Build Project
+        run: yarn build
+        env:
+          CI: false
+
+      - name: List built files
+        run: find build/ -print 
