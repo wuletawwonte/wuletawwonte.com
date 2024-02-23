@@ -1,9 +1,21 @@
-<script setup></script>
+<script setup>
+const iconVisible = ref(false);
+</script>
 
 <template>
-  <div class="prose">
-    <p class="text-2xl">Hi, I'm</p>
-    <h1 class="font-atkinson text-4xl font-bold">Wuletaw Wonte</h1>
+  <div class="font-ubuntu prose">
+    <p class="font-ubuntu text-2xl">Hi, I'm</p>
+    <button
+      title="Click to Pronounce"
+      type="button"
+      class="flex text-3xl font-semibold"
+    >
+      <strong class="peer font-semibold">Wuletaw Wonte</strong>
+      <icon
+        name="material-symbols:volume-up"
+        class="h-10 w-10 pl-3 opacity-5 duration-300 hover:opacity-100 peer-hover:opacity-100"
+      />
+    </button>
     <button
       title="Click to Pronounce"
       class="font-display flex items-center text-3xl font-semibold"
