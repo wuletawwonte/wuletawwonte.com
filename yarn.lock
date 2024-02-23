@@ -1326,6 +1326,16 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
   integrity sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==
 
+"@tailwindcss/typography@^0.5.10":
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.5.10.tgz#2abde4c6d5c797ab49cf47610830a301de4c1e0a"
+  integrity sha512-Pe8BuPJQJd3FfRnm6H0ulKIGoMEQS+Vq01R6M5aCrFB/ccR/shT+0kXLjouGC1gFLm9hopTFN+DMP0pfwRWzPw==
+  dependencies:
+    lodash.castarray "^4.4.0"
+    lodash.isplainobject "^4.0.6"
+    lodash.merge "^4.6.2"
+    postcss-selector-parser "6.0.10"
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
@@ -3623,6 +3633,11 @@ lodash._reinterpolate@^3.0.0:
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha512-xYHt68QRoYGjeeM/XOE1uJtvXQAgvszfBhjV4yvsQH0u2i9I6cI6c6/eG4Hh3UAOVn0y/xAXwmTzEay49Q//HA==
 
+lodash.castarray@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.castarray/-/lodash.castarray-4.4.0.tgz#c02513515e309daddd4c24c60cfddcf5976d9115"
+  integrity sha512-aVx8ztPv7/2ULbArGJ2Y42bG1mEQ5mGjpdvrbJcJFU3TbYybe+QlLS4pst9zV52ymy2in1KpFPiZnAOATxD4+Q==
+
 lodash.defaults@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
@@ -3633,10 +3648,20 @@ lodash.isarguments@^3.1.0:
   resolved "https://registry.yarnpkg.com/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz#2f573d85c6a24289ff00663b491c1d338ff3458a"
   integrity sha512-chi4NHZlZqZD18a0imDHnZPrDeBbTtVN7GXMwuGdRH9qotxAjYs3aVLKc7zNOG9eddR5Ksd8rvFEBc9SsggPpg==
 
+lodash.isplainobject@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
+  integrity sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==
+
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==
+
+lodash.merge@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+  integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
 lodash.template@^4.5.0:
   version "4.5.0"
@@ -4769,6 +4794,14 @@ postcss-reduce-transforms@^6.0.1:
   dependencies:
     postcss-value-parser "^4.2.0"
 
+postcss-selector-parser@6.0.10:
+  version "6.0.10"
+  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz#79b61e2c0d1bfc2602d549e11d0876256f8df88d"
+  integrity sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==
+  dependencies:
+    cssesc "^3.0.0"
+    util-deprecate "^1.0.2"
+
 postcss-selector-parser@^6.0.11, postcss-selector-parser@^6.0.13, postcss-selector-parser@^6.0.15:
   version "6.0.15"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.15.tgz#11cc2b21eebc0b99ea374ffb9887174855a01535"
@@ -4805,6 +4838,16 @@ postcss@^8.4.23, postcss@^8.4.33, postcss@^8.4.35:
     nanoid "^3.3.7"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
+
+prettier-plugin-tailwindcss@^0.5.11:
+  version "0.5.11"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.5.11.tgz#1aa9308c3285b3cb7942aaeaec8d0e0775ac54d0"
+  integrity sha512-AvI/DNyMctyyxGOjyePgi/gqj5hJYClZ1avtQvLlqMT3uDZkRbi4HhGUpok3DRzv9z7Lti85Kdj3s3/1CeNI0w==
+
+prettier@^3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.5.tgz#e52bc3090586e824964a8813b09aba6233b28368"
+  integrity sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==
 
 pretty-bytes@^6.1.1:
   version "6.1.1"
