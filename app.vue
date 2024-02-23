@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col">
     <Header />
-    <div class="lg:px-56 px-2 pt-10">
+    <div class="px-2 pt-10 lg:px-64">
       <NuxtPage />
     </div>
   </div>
