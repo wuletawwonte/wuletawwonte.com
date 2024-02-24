@@ -32,9 +32,10 @@ const toggleColorMode = (e: Event) => {
           <li><a>Item 3</a></li>
         </ul>
       </div>
-      <a
+      <nuxt-link
+        to="/"
         class="btn btn-link font-ubuntu text-xl font-thin text-base-content no-underline hover:no-underline"
-        >Wuletaw Wonte</a
+        >Wuletaw Wonte</nuxt-link
       >
     </div>
     <div class="navbar-center hidden lg:flex">
