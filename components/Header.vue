@@ -3,23 +3,23 @@ const colorMode = useColorMode();
 
 const toggleColorMode = (e: Event) => {
   const target = e.target as HTMLInputElement;
-  colorMode.value = target.checked ? 'dark' : 'light';
+  colorMode.value = target.checked ? "dark" : "light";
 };
 </script>
 
 <template>
-  <div class="navbar bg-base-100 lg:px-24 pr-4">
+  <div class="navbar bg-base-100 pr-4 lg:px-24">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-link lg:hidden">
           <Icon
             name="material-symbols:menu"
-            class="w-6 h-6 text-base-content"
+            class="h-6 w-6 text-base-content"
           />
         </div>
         <ul
           tabindex="0"
-          class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
         >
           <li><a>Item 1</a></li>
           <li>
@@ -33,7 +33,7 @@ const toggleColorMode = (e: Event) => {
         </ul>
       </div>
       <a
-        class="btn btn-link text-base-content no-underline hover:no-underline text-xl"
+        class="btn btn-link font-ubuntu text-xl font-thin text-base-content no-underline hover:no-underline"
         >Wuletaw Wonte</a
       >
     </div>
@@ -55,10 +55,10 @@ const toggleColorMode = (e: Event) => {
     <div class="navbar-end">
       <label class="swap swap-rotate">
         <input type="checkbox" @change="toggleColorMode" />
-        <Icon name="material-symbols-light:sunny" class="swap-on w-6 h-6" />
+        <Icon name="material-symbols-light:sunny" class="swap-on h-6 w-6" />
         <Icon
           name="material-symbols-light:mode-night"
-          class="swap-off w-6 h-6"
+          class="swap-off h-6 w-6"
         />
       </label>
     </div>
