@@ -1,6 +1,6 @@
 <script setup type="ts">
 
-const { data: articles } = await useAsyncData("articles", () => queryContent("blog").find());
+const { data: articles } = await useAsyncData("articles", () => queryContent("blog").where({draft: {$eq: false}}).find());
 </script>
 
 <template>
@@ -13,6 +13,7 @@ const { data: articles } = await useAsyncData("articles", () => queryContent("bl
         :title="article.title"
         :excerpt="article.description"
         :slug="article.slug"
+        :date="article.datePublished"
       />
     </ul>
   </div>

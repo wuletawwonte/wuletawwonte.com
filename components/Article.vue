@@ -1,10 +1,21 @@
 <script setup lang="ts">
-defineProps({
+const props = defineProps({
   title: String,
   slug: String,
   excerpt: String,
   date: String,
 });
+
+// console.log(date);
+
+// const formattedDate = new Date(publishedDate.toString).toLocaleDateString(
+//   "en-US",
+//   {
+//     month: "short",
+//     day: "numeric",
+//     year: "numeric",
+//   },
+// );
 </script>
 
 <template>
