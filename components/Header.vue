@@ -8,7 +8,7 @@ const toggleColorMode = (e: Event) => {
 </script>
 
 <template>
-  <div class="navbar fixed bg-base-100 pr-4 shadow lg:px-24">
+  <div class="navbar fixed z-10 bg-base-100 pr-4 shadow lg:px-24">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-link lg:hidden">
