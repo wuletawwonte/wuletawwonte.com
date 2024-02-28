@@ -1,6 +1,6 @@
 ---
 title: "Hello There"
-description: "meta description of the page"
+description: "Meta description of the Hello there page"
 slug: "hello-there"
 datePublished: "2019-01-06"
 dateModified: "2020-04-18"
