@@ -8,7 +8,7 @@ const toggleColorMode = (e: Event) => {
 </script>
 
 <template>
-  <div class="navbar fixed bg-base-100 pr-4 lg:px-24">
+  <div class="navbar fixed bg-base-100 pr-4 shadow lg:px-24">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-link lg:hidden">
@@ -36,7 +36,7 @@ const toggleColorMode = (e: Event) => {
         to="/"
         class="btn btn-link font-ubuntu text-xl font-thin text-base-content no-underline hover:no-underline"
         >Wuletaw Wonte</nuxt-link
-
+      >
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
