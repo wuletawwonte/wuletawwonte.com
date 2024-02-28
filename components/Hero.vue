@@ -19,7 +19,7 @@ function readOutloud() {
       <strong class="peer font-semibold">Wuletaw Wonte</strong>
       <icon
         name="material-symbols:volume-up"
-        class="h-11 w-11 pl-3 text-primary opacity-5 duration-300 hover:opacity-100 peer-hover:opacity-100"
+        class="h-11 w-11 pl-3 opacity-5 duration-300 hover:opacity-100 peer-hover:opacity-100"
       />
     </button>
     <h3 class="mt-2 text-xl font-thin">Freelance Software Developer</h3>
