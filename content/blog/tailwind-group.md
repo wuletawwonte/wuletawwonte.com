@@ -3,8 +3,8 @@ title: "How to use group feature of Tailwindcss"
 description: "How to style an element based on the state of some parent element in Tailwindcss"
 slug: "tailwind-group"
 draft: false
-datePublished: "2024-02-24"
-dateModified: "2024-02-24"
+datePublished: "02-24-2024"
+dateModified: "02-24-2024"
 ---
 
 # How to use group feature of Tailwindcss
