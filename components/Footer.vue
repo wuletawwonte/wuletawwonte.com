@@ -2,32 +2,28 @@
   <footer class="py-4">
     <div class="flex justify-center">
       <a
-        href="#"
-        class="text-lg text-base-content hover:text-accent"
+        href="https://www.linkedin.com/in/wuletawwonte/"
+        class="text-lg text-base-content opacity-50 hover:opacity-100"
         title="LinkedIn"
+        target="_blank"
       >
         <icon name="fa-brands:linkedin" class="h-8 w-8" />
       </a>
       <a
-        href="#"
-        class="ml-4 text-lg text-base-content hover:text-accent"
+        href="https://github.com/wuletawwonte/"
+        class="ml-4 text-lg text-base-content opacity-50 hover:opacity-100"
         title="GitHub"
+        target="_blank"
       >
         <icon name="fa-brands:github" class="h-8 w-8" />
       </a>
       <a
-        href="#"
-        class="ml-4 text-lg text-base-content hover:text-accent"
+        href="https://twitter.com/wuletawwonte"
+        class="ml-4 text-lg text-base-content opacity-50 hover:opacity-100"
         title="Twitter"
+        target="_blank"
       >
-        <icon name="fa-brands:twitter" class="h-8 w-8" />
-      </a>
-      <a
-        href="#"
-        class="ml-4 text-lg text-base-content hover:text-accent"
-        title="Email"
-      >
-        <icon name="fa-regular:envelope" class="h-8 w-8" />
+        <icon name="fa6-brands:x-twitter" class="h-8 w-8" />
       </a>
     </div>
     <p class="mt-4 text-center text-base-content">
