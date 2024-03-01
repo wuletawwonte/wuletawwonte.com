@@ -3,7 +3,7 @@ const colorMode = useColorMode();
 
 const toggleColorMode = (e: Event) => {
   const target = e.target as HTMLInputElement;
-  colorMode.value = target.checked ? "dark" : "light";
+  colorMode.preference = target.checked ? "dark" : "light";
 };
 </script>
 
@@ -55,7 +55,11 @@ const toggleColorMode = (e: Event) => {
     </div>
     <div class="navbar-end">
       <label class="swap swap-rotate">
-        <input type="checkbox" @change="toggleColorMode" />
+        <input
+          type="checkbox"
+          @change="toggleColorMode"
+          :checked="colorMode.preference === 'dark'"
+        />
         <Icon name="material-symbols-light:sunny" class="swap-on h-6 w-6" />
         <Icon
           name="material-symbols-light:mode-night"
