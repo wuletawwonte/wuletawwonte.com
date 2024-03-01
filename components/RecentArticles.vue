@@ -1,6 +1,6 @@
 <script setup type="ts">
 
-const { data: articles } = await useAsyncData("articles", () => queryContent("blog").where({draft: {$eq: false}}).find());
+const { data: articles } = await useAsyncData("articles", () => queryContent("blog").where({draft: {$eq: false}}).sort({ datePublished: -1}).find());
 </script>
 
 <template>
