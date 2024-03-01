@@ -21,14 +21,8 @@ const toggleColorMode = (e: Event) => {
           tabindex="0"
           class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
         >
-          <li><a>Item 1</a></li>
-          <li>
-            <a>Parent</a>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </li>
+          <li><a>About</a></li>
+          <li><a>Blog</a></li>
           <li><a>Item 3</a></li>
         </ul>
       </div>
@@ -40,16 +34,8 @@ const toggleColorMode = (e: Event) => {
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><a>Item 1</a></li>
-        <li>
-          <details>
-            <summary>Parent</summary>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </details>
-        </li>
+        <li><a>About</a></li>
+        <li><a>Blog</a></li>
         <li><a>Item 3</a></li>
       </ul>
     </div>
