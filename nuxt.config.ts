@@ -26,7 +26,8 @@ export default defineNuxtConfig({
     "@nuxt/content",
   ],
   colorMode: {
-    preference: "system",
+    classSuffix: "",
+    preference: "dark",
     fallback: "dark",
     dataValue: "theme",
   },
