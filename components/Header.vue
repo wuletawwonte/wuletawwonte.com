@@ -21,9 +21,9 @@ const toggleColorMode = (e: Event) => {
           tabindex="0"
           class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
         >
-          <li><a>About</a></li>
-          <li><a>Blog</a></li>
-          <li><a>Item 3</a></li>
+          <li><nuxt-link to="/about">About</nuxt-link></li>
+          <li><nuxt-link to="/blog">Blog</nuxt-link></li>
+          <li><nuxt-link to="#">Projects</nuxt-link></li>
         </ul>
       </div>
       <nuxt-link
@@ -34,9 +34,9 @@ const toggleColorMode = (e: Event) => {
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><a>About</a></li>
-        <li><a>Blog</a></li>
-        <li><a>Item 3</a></li>
+        <li><nuxt-link to="/about">About</nuxt-link></li>
+        <li><nuxt-link to="/blog">Blog</nuxt-link></li>
+        <li><nuxt-link to="">Projects</nuxt-link></li>
       </ul>
     </div>
     <div class="navbar-end">

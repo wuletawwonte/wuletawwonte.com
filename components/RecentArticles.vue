@@ -5,7 +5,7 @@ const articles = await queryContent("blog").where({draft: {$eq: false}}).limit(5
 </script>
 
 <template>
-  <div class="flex flex-col pt-8">
+  <div class="flex flex-col p-4 pt-8">
     <h2 class="font-ubuntu text-2xl font-semibold">Recently Published</h2>
     <ul class="mt-4 flex flex-col gap-4">
       <Article
