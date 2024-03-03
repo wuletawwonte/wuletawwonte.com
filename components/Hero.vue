@@ -8,7 +8,7 @@ function readOutloud() {
 </script>
 
 <template>
-  <div class="prose p-4 font-ubuntu">
+  <div class="prose p-4 font-ubuntu lg:pt-0">
     <p class="mb-2 font-ubuntu text-2xl text-base-content">Hi, I'm</p>
     <button
       title="Click to Pronounce"

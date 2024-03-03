@@ -23,7 +23,7 @@ const toggleColorMode = (e: Event) => {
         >
           <li><nuxt-link to="/about">About</nuxt-link></li>
           <li><nuxt-link to="/blog">Blog</nuxt-link></li>
-          <li><nuxt-link to="#">Projects</nuxt-link></li>
+          <li><nuxt-link to="/projects">Projects</nuxt-link></li>
         </ul>
       </div>
       <nuxt-link
@@ -36,7 +36,7 @@ const toggleColorMode = (e: Event) => {
       <ul class="menu menu-horizontal px-1">
         <li><nuxt-link to="/about">About</nuxt-link></li>
         <li><nuxt-link to="/blog">Blog</nuxt-link></li>
-        <li><nuxt-link to="">Projects</nuxt-link></li>
+        <li><nuxt-link to="/projects">Projects</nuxt-link></li>
       </ul>
     </div>
     <div class="navbar-end">
