@@ -39,7 +39,14 @@ const toggleColorMode = (e: Event) => {
         <li><nuxt-link to="/projects">Projects</nuxt-link></li>
       </ul>
     </div>
-    <div class="navbar-end">
+    <div class="navbar-end gap-4">
+      <nuxt-link
+        to="https://github.com/wuletawwonte/wuletawwonte.com"
+        target="_blank"
+        class="btn btn-circle btn-link btn-sm"
+      >
+        <Icon name="line-md:github-loop" class="h-6 w-6 text-base-content" />
+      </nuxt-link>
       <label class="swap swap-rotate">
         <input
           type="checkbox"
