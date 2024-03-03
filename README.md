@@ -1,14 +1,10 @@
 # wuletawwonte.com
 
-<img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-
-> This is my minimalistic portfolio website built with nuxt and generated static site at build time and consitnuously deployed using github actions.
-
-> It is created with [Nuxt](https://nuxt.com/)
+> This is my minimalistic portfolio website built with [Nuxt](https://nuxt.com/). It adheres to the [Jamstack](https://jamstack.org) approach, which renders the website at build time. I've setup continuous deployment using github actions.
 
 ## Live version
 
-For the live version of this project visit the following [Netlify](https://wuletawwonte.com/) link.
+For the live version of this project visit the following [link](https://wuletawwonte.com/).
 
 ## Get started
 
