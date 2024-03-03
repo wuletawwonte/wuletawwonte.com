@@ -33,7 +33,7 @@ const toggleColorMode = (e: Event) => {
       >
     </div>
     <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
+      <ul class="menu menu-horizontal gap-1 px-1">
         <li><nuxt-link to="/about">About</nuxt-link></li>
         <li><nuxt-link to="/blog">Blog</nuxt-link></li>
         <li><nuxt-link to="/projects">Projects</nuxt-link></li>
