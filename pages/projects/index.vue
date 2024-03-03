@@ -4,19 +4,14 @@ const projects = [
     title: "wuletawwonte.com",
     description: "A personal blog built with Nuxt.js and DaisyUI.",
     href: "https://wuletawwonte.com",
-    image: "/images/wuletaw-wonte.png",
+    image: "/images/wuletawwontecom.png",
   },
   {
-    title: "Wuletaw Wonte",
-    description: "A personal blog built with Nuxt.js and Tailwind CSS.",
-    href: "https://wuletawwonte.com",
-    image: "/images/wuletaw-wonte.png",
-  },
-  {
-    title: "Wuletaw Wonte",
-    description: "A personal blog built with Nuxt.js and Tailwind CSS.",
-    href: "https://wuletawwonte.com",
-    image: "/images/wuletaw-wonte.png",
+    title: "Ethresale",
+    description:
+      "A Nuxt powered web app that enables individuals to buy or sell used items.",
+    href: "https://ethresale.netlify.app/",
+    image: "/images/ethresale.svg",
   },
 ];
 </script>
