@@ -11,7 +11,12 @@ const toggleColorMode = (e: Event) => {
   <div class="navbar fixed z-10 bg-base-100 pr-4 shadow lg:px-24">
     <div class="navbar-start">
       <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-link lg:hidden">
+        <div
+          tabindex="0"
+          role="button"
+          class="btn btn-link lg:hidden"
+          aria-label="dropdown menu"
+        >
           <Icon
             name="material-symbols:menu"
             class="h-6 w-6 text-base-content"
