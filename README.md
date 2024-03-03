@@ -37,9 +37,7 @@ And please feel free to make a PR
 
 ## Acknowledgments
 
-- [Microverse](https://www.microverse.org/)
-- External API from https://corona.lmao.ninja
-- Original design idea (Ballhead App (Free PSDs)) by Nelson Sakwa [Website](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
+- Hat tip to anyone whose code was used
 
 ## 🤝 Contributing
 
