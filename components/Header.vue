@@ -44,6 +44,7 @@ const toggleColorMode = (e: Event) => {
         to="https://github.com/wuletawwonte/wuletawwonte.com"
         target="_blank"
         class="btn btn-circle btn-link btn-sm"
+        aria-label="codebase link"
       >
         <Icon name="line-md:github-loop" class="h-6 w-6 text-base-content" />
       </nuxt-link>
@@ -52,6 +53,7 @@ const toggleColorMode = (e: Event) => {
           type="checkbox"
           @change="toggleColorMode"
           :checked="colorMode.preference === 'dark'"
+          aria-label="Toggle dark mode"
         />
         <Icon name="material-symbols-light:sunny" class="swap-on h-6 w-6" />
         <Icon
