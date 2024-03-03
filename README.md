@@ -1,75 +1,60 @@
-# Nuxt 3 Minimal Starter
+# wuletawwonte.com
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 
-## Setup
+> This is my minimalistic portfolio website built with nuxt and generated static site at build time and consitnuously deployed using github actions.
 
-Make sure to install the dependencies:
+> It is created with [Nuxt](https://nuxt.com/)
 
-```bash
-# npm
-npm install
+## Live version
 
-# pnpm
-pnpm install
+For the live version of this project visit the following [Netlify](https://wuletawwonte.com/) link.
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## Get started
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+   git clone https://github.com/wuletawwonte/wuletawwonte.com.git
+   cd into the folder by typing: cd wuletawwonte.com
 ```
 
-## Production
+:heavy_plus_sign: add your contribution if you'd like
+And please feel free to make a PR
 
-Build the application for production:
+## Technology
 
-```bash
-# npm
-npm run build
+- Nuxt
+- Vue
+- yarn
+- SSG
 
-# pnpm
-pnpm run build
+## Authors
 
-# yarn
-yarn build
+#### :bust_in_silhouette: Wuletaw Wonte
 
-# bun
-bun run build
-```
+- [wuletawwonte](https://github.com/wuletawwonte)
+- [LinkedIn](https://www.linkedin.com/in/wuletawwonte/).
+- [Twitter](https://twitter.com/wuletawwonte)
 
-Locally preview production build:
+## Acknowledgments
 
-```bash
-# npm
-npm run preview
+- [Microverse](https://www.microverse.org/)
+- External API from https://corona.lmao.ninja
+- Original design idea (Ballhead App (Free PSDs)) by Nelson Sakwa [Website](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
 
-# pnpm
-pnpm run preview
+## 🤝 Contributing
 
-# yarn
-yarn preview
+All contributions, issues and feature requests are welcome!
 
-# bun
-bun run preview
-```
+1. Fork it (https://github.com/wuletawwonte/wuletawwonte.com.git)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new Pull Request
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Show your support:
+
+Give a :star: if you liked the app
+
+# License
+
+This project is [MIT](LICENSE.md) licensed.
