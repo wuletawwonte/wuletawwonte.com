@@ -15,7 +15,7 @@ const year = ref(dateObject.getFullYear());
 </script>
 
 <template>
-  <div class="group flex items-center">
+  <li class="group flex items-center">
     <div class="flex flex-col items-center border-r-2 px-4">
       <b>{{ month }}</b>
       <b>{{ day }}</b>
@@ -28,7 +28,7 @@ const year = ref(dateObject.getFullYear());
       >
         {{ title }}</nuxt-link
       >
-      <p class="text-gray-500">{{ excerpt }}</p>
+      <p class="text-base-content">{{ excerpt }}</p>
     </div>
-  </div>
+  </li>
 </template>

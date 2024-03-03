@@ -11,7 +11,12 @@ const toggleColorMode = (e: Event) => {
   <div class="navbar fixed z-10 bg-base-100 pr-4 shadow lg:px-24">
     <div class="navbar-start">
       <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-link lg:hidden">
+        <div
+          tabindex="0"
+          role="button"
+          class="btn btn-link lg:hidden"
+          aria-label="dropdown menu"
+        >
           <Icon
             name="material-symbols:menu"
             class="h-6 w-6 text-base-content"
@@ -44,6 +49,7 @@ const toggleColorMode = (e: Event) => {
         to="https://github.com/wuletawwonte/wuletawwonte.com"
         target="_blank"
         class="btn btn-circle btn-link btn-sm"
+        aria-label="codebase link"
       >
         <Icon name="line-md:github-loop" class="h-6 w-6 text-base-content" />
       </nuxt-link>
@@ -52,6 +58,7 @@ const toggleColorMode = (e: Event) => {
           type="checkbox"
           @change="toggleColorMode"
           :checked="colorMode.preference === 'dark'"
+          aria-label="Toggle dark mode"
         />
         <Icon name="material-symbols-light:sunny" class="swap-on h-6 w-6" />
         <Icon
