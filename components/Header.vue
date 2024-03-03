@@ -33,13 +33,20 @@ const toggleColorMode = (e: Event) => {
       >
     </div>
     <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
+      <ul class="menu menu-horizontal gap-1 px-1">
         <li><nuxt-link to="/about">About</nuxt-link></li>
         <li><nuxt-link to="/blog">Blog</nuxt-link></li>
         <li><nuxt-link to="/projects">Projects</nuxt-link></li>
       </ul>
     </div>
-    <div class="navbar-end">
+    <div class="navbar-end gap-4">
+      <nuxt-link
+        to="https://github.com/wuletawwonte/wuletawwonte.com"
+        target="_blank"
+        class="btn btn-circle btn-link btn-sm"
+      >
+        <Icon name="line-md:github-loop" class="h-6 w-6 text-base-content" />
+      </nuxt-link>
       <label class="swap swap-rotate">
         <input
           type="checkbox"
