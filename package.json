@@ -17,7 +17,7 @@
     "postcss-custom-properties": "^13.3.6"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/color-mode": "^3.4.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "@tailwindcss/typography": "^0.5.10",
     "daisyui": "^4.10.1",
