@@ -19,7 +19,7 @@
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.4.1",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.13",
     "daisyui": "^4.10.1",
     "nuxt-icon": "^0.6.9",
     "prettier": "^3.2.5",
