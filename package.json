@@ -23,6 +23,6 @@
     "daisyui": "^4.12.2",
     "nuxt-icon": "^0.6.10",
     "prettier": "^3.3.2",
-    "prettier-plugin-tailwindcss": "^0.6.2"
+    "prettier-plugin-tailwindcss": "^0.6.5"
   }
 }
