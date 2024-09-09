@@ -13,6 +13,13 @@ const projects = [
     href: "https://ethresale.netlify.app/",
     image: "/images/ethresale.svg",
   },
+  {
+    title: "EthHours",
+    description:
+      "An extension for chrome that shows the current time in Ethiopian numerals.",
+    href: "https://clock.wuletawwonte.com/",
+    image: "/images/ethhours.svg",    
+  }
 ];
 </script>
 
