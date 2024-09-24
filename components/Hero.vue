@@ -16,7 +16,7 @@ function readOutloud() {
       class="flex text-4xl font-semibold"
       @click="readOutloud"
     >
-      <strong class="peer font-semibold">Wuletaw Wonte</strong>
+      <strong class="peer font-semibold" id="myName">Wuletaw Wonte</strong>
       <icon
         name="material-symbols:volume-up"
         class="h-11 w-11 pl-3 opacity-5 duration-300 hover:opacity-100 peer-hover:opacity-100"
