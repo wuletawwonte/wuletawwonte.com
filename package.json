@@ -20,7 +20,7 @@
     "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@tailwindcss/typography": "^0.5.13",
-    "daisyui": "^4.12.10",
+    "daisyui": "^4.12.14",
     "nuxt-icon": "^0.6.10",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.5"
