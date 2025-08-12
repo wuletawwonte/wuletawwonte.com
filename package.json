@@ -14,7 +14,7 @@
     "nuxt": "^3.14.1592",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5",
-    "postcss-custom-properties": "^14.0.3"
+    "postcss-custom-properties": "^14.0.6"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.5.2",
